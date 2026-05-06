@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io('https://portfolio-ivxc.onrender.com');
 const modal = document.getElementById('modal');
 const usernameInput = document.getElementById('username');
 const joinBtn = document.getElementById('joinBtn');
